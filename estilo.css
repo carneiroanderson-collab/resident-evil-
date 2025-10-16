@@ -17,7 +17,13 @@ font-family: "Bungee", sans-serif;
 }
 .img01{
     width:50%;
-}               
+}             
+main{
+    max-width: 90%;
+}  
 .passo{
+    display: none;
+}
+.passo.ativo{
     display: block;
 }
