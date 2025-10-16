@@ -1,29 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
-body{
-    background-color :black;
-    color:aliceblue;
-    display:flex;
-    justify-content:center;
+body {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
     align-items: center;
     margin: 0;
 
 }
-button{
-    background-color:brown;
-color:black;
-padding: 20px;
-font-family: "Bungee", sans-serif;
+
+button {
+    background-color: brown;
+    color: black;
+    padding: 20px;
+    font-family: "Bungee", sans-serif;
 }
-.img01{
-    width:50%;
-}             
-main{
+
+.img01 {
+    width: 50%;
+}
+
+main {
     max-width: 90%;
-}  
-.passo{
+}
+
+.passo {
     display: none;
 }
-.passo.ativo{
+
+.passo.ativo {
     display: block;
 }
