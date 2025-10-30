@@ -4,7 +4,7 @@ console.log(avanca)
 avanca.forEach(button =>{
     button.addEventListener('click' , function(){
        const atual = document.querySelector('ativo')
-       const proximosso="passo-"+ this.getattribute('data-proximo')
+       const proximosso="passo-"+ this.getAttribute('data-proximo')
        atual.classList.remove('ativo')
        document.getElementById(proximosso).add('ativo')
     })
