@@ -7,7 +7,7 @@ avanca.forEach(button =>{
        const proximosso="passo-"+ this.getAttribute('data-proximo')
        console.log(proximosso, atual)
        atual.classList.remove('ativo')
-       document.getElementById(proximosso).add('ativo')
+       document.getElementById(proximosso).classList.add('ativo')
     })
 }
 
